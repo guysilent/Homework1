@@ -34,7 +34,8 @@ function changeChartType() {
     
     let canvas = document.createElement('canvas');
     canvas.setAttribute('id', 'myChart');
-    document.body.insertBefore(canvas, document.getElementById('buttonDiv'));
+    let chartDiv = document.getElementById("chartDiv");
+    chartDiv.appendChild(canvas);
     let context = document.getElementById("myChart");
     let myChart = new Chart(context, {
         type: charts[currentChart],

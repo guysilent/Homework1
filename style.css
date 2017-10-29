@@ -33,5 +33,12 @@
 
 #myChart{
     width: 800px;
-    height: 600px;
+    height: 400px;
+}
+
+#chartDiv{
+    position: relative;
+    height: 400;
+    width: 800px;
+    margin: auto; 
 }
