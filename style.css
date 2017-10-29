@@ -1,0 +1,37 @@
+#Title {
+    text-align: center;
+    
+}
+
+#innerBar{
+    background-color: blue;
+    display: inline-block;
+    border: solid 1px white;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+
+#outerDiv{
+    position: relative;
+    height: 500px;
+    background-color: grey;
+    width: 800px;
+    margin: auto; 
+}
+
+#buttonDiv{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#Button{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+}
+
+#myChart{
+    width: 800px;
+    height: 600px;
+}
